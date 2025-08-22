@@ -10,4 +10,12 @@
     "lint": "next lint",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "prepare": "husky install"
-  
+  },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
+  },
+
