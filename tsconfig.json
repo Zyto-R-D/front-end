@@ -10,3 +10,7 @@
     "allowJs": false,
     "incremental": true,
     "paths": { "@/*": ["./*"] },
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
