@@ -1,0 +1,13 @@
+{
+  "name": "@zyto/front-end",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js app for Zyto: chat → plan → execute → audit.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepare": "husky install"
+  
